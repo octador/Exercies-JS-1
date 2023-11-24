@@ -12,8 +12,15 @@
 // }
 // console.log(starwars);
 
+// ----------good------
 
-
+// for (let i = 1; i <= 5; i++) {
+//     console.log('*'.repeat(i));
+// }
+// ---------------------------------------------------------------
+let star = '';
 for (let i = 1; i <= 5; i++) {
-    console.log('*'.repeat(i));
+    star += '*'.repeat(i) + '\n';
 }
+
+alert(star);
